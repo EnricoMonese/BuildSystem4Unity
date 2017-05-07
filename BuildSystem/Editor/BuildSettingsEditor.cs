@@ -15,10 +15,6 @@ using UnityEditor;
 		instance = (MultipleBuildsEditor)EditorWindow.GetWindow(typeof(MultipleBuildsEditor));
 	}
 
-	private void OnEnable() {
- 		
- 	}
-
 	private void OnGUI() {
  		Draw();
  	}
